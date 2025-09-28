@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wehiby Future Tech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>WEHIBY</h2>
+                <span class="logo-subtitle">Future Tech Solutions</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 class="contact-title">Get In Touch</h1>
+                <p class="contact-subtitle">Ready to transform your business with cutting-edge technology? Let's discuss your project and bring your vision to life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h2>Send us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                    </div>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="input-focus-line"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="input-focus-line"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company">
+                                <div class="input-focus-line"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                                <div class="input-focus-line"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="odoo">Odoo ERP Solutions</option>
+                                <option value="desktop">Desktop Applications (C#)</option>
+                                <option value="python">Python Development</option>
+                                <option value="web">Web Applications</option>
+                                <option value="static">Static Websites</option>
+                                <option value="remote">Remote IT Services</option>
+                                <option value="infrastructure">Infrastructure Management</option>
+                                <option value="network">Network Infrastructure</option>
+                                <option value="security">Cybersecurity Solutions</option>
+                                <option value="cloud">Cloud Migration & Management</option>
+                                <option value="backup">Backup & Disaster Recovery</option>
+                                <option value="consultation">IT Consulting & Strategy</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="input-focus-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="over-50k">Over $50,000</option>
+                                <option value="discuss">Let's discuss</option>
+                            </select>
+                            <div class="input-focus-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="asap">ASAP</option>
+                                <option value="1-month">Within 1 month</option>
+                                <option value="3-months">Within 3 months</option>
+                                <option value="6-months">Within 6 months</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                            <div class="input-focus-line"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us about your project requirements, goals, and any specific features you need..." required></textarea>
+                            <div class="input-focus-line"></div>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" value="yes">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for tech updates and industry insights
+                            </label>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="privacy" value="yes" required>
+                                <span class="checkmark"></span>
+                                I agree to the <a href="#" class="privacy-link">Privacy Policy</a> and <a href="#" class="privacy-link">Terms of Service</a> *
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <div class="contact-info-header">
+                        <h2>Contact Information</h2>
+                        <p>Multiple ways to reach us for your convenience.</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3>Email Us</h3>
+                                <p>info@wehiby.com</p>
+                                <p>support@wehiby.com</p>
+                                <span class="method-note">We respond within 24 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3>Call Us</h3>
+                                <p>+1 (555) 123-4567</p>
+                                <p>+1 (555) 987-6543</p>
+                                <span class="method-note">Mon-Fri 9AM-6PM EST</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3>Video Call</h3>
+                                <p>Schedule a consultation</p>
+                                <p>Free 30-minute discovery call</p>
+                                <span class="method-note">Book via Calendly</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-content">
+                                <h3>Remote Services</h3>
+                                <p>Serving clients worldwide</p>
+                                <p>Remote-first approach</p>
+                                <span class="method-note">Available globally</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="business-hours">
+                        <h3>Business Hours</h3>
+                        <div class="hours-grid">
+                            <div class="hours-item">
+                                <span class="day">Monday - Friday</span>
+                                <span class="time">9:00 AM - 6:00 PM EST</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Saturday</span>
+                                <span class="time">10:00 AM - 2:00 PM EST</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Sunday</span>
+                                <span class="time">Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Quick answers to common questions about our services</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What technologies and services do you specialize in?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We specialize in Odoo ERP solutions, C# desktop applications, Python development, web applications, infrastructure management, network design, cybersecurity solutions, cloud migration, and comprehensive remote IT services. Our team has extensive experience with modern frameworks, cloud technologies, and enterprise infrastructure.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does a typical project take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on complexity and scope. Simple websites can take 2-4 weeks, while complex ERP implementations may take 3-6 months. We provide detailed timelines during the consultation phase.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide ongoing support?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer comprehensive support and maintenance packages for all our solutions. This includes bug fixes, updates, security patches, and feature enhancements to keep your systems running smoothly.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can you work with existing systems?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We specialize in system integration and can work with your existing infrastructure. We ensure seamless integration while maintaining data integrity and minimizing downtime.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What's your pricing model?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer flexible pricing models including fixed-price projects, hourly rates, and retainer agreements. Pricing depends on project scope, complexity, and timeline. Contact us for a customized quote.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer remote services?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we are a remote-first company and can serve clients worldwide. We use modern collaboration tools and maintain clear communication throughout the project lifecycle.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What infrastructure services do you provide?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We provide comprehensive infrastructure services including cloud migration, server administration, network design and management, cybersecurity solutions, backup and disaster recovery, data center operations, and 24/7 monitoring and support.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide 24/7 support for infrastructure?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer 24/7 monitoring and support for critical infrastructure systems. Our team provides proactive monitoring, rapid response to issues, and comprehensive maintenance to ensure maximum uptime and performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WEHIBY</h3>
+                    <p>Building the future of technology with innovative IT solutions and exceptional service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Odoo ERP Solutions</a></li>
+                        <li><a href="index.html#services">Desktop Applications</a></li>
+                        <li><a href="index.html#services">Python Development</a></li>
+                        <li><a href="index.html#services">Web Applications</a></li>
+                        <li><a href="index.html#services">Infrastructure Management</a></li>
+                        <li><a href="index.html#services">Network Solutions</a></li>
+                        <li><a href="index.html#services">Cybersecurity</a></li>
+                        <li><a href="index.html#services">Remote IT Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@wehiby.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Remote Services Worldwide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wehiby. All rights reserved. | Future Technology Solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact-script.js"></script>
+</body>
+</html>

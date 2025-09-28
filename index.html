@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wehiby - Future IT Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>WEHIBY</h2>
+                <span class="logo-subtitle">Future Tech Solutions</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Building the</span>
+                    <span class="title-line highlight">Future</span>
+                    <span class="title-line">of Technology</span>
+                </h1>
+                <p class="hero-description">
+                    We specialize in cutting-edge IT services, infrastructure management, network solutions, 
+                    custom software development, and comprehensive remote IT support that drives your business forward in the digital age.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="contact.html" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="tech-card" data-tech="Odoo">
+                        <i class="fas fa-cogs"></i>
+                        <span>Odoo ERP</span>
+                    </div>
+                    <div class="tech-card" data-tech="C#">
+                        <i class="fab fa-microsoft"></i>
+                        <span>C# Desktop</span>
+                    </div>
+                    <div class="tech-card" data-tech="Python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="tech-card" data-tech="Web">
+                        <i class="fas fa-globe"></i>
+                        <span>Web Apps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive IT solutions for modern businesses</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Odoo ERP Solutions</h3>
+                    <p>Custom Odoo implementations, modules development, and system integrations to streamline your business processes.</p>
+                    <ul class="service-features">
+                        <li>Custom Module Development</li>
+                        <li>System Integration</li>
+                        <li>Data Migration</li>
+                        <li>Training & Support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Desktop Applications</h3>
+                    <p>High-performance desktop applications built with C# and modern frameworks for Windows environments.</p>
+                    <ul class="service-features">
+                        <li>Windows Forms & WPF</li>
+                        <li>Cross-platform Solutions</li>
+                        <li>Database Integration</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python Development</h3>
+                    <p>Versatile Python solutions for automation, data analysis, web scraping, and backend development.</p>
+                    <ul class="service-features">
+                        <li>Web Frameworks (Django/Flask)</li>
+                        <li>Data Science & Analytics</li>
+                        <li>Automation Scripts</li>
+                        <li>API Development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Applications</h3>
+                    <p>Modern, responsive web applications with dynamic functionality and seamless user experiences.</p>
+                    <ul class="service-features">
+                        <li>Frontend Development</li>
+                        <li>Backend APIs</li>
+                        <li>Database Design</li>
+                        <li>Cloud Deployment</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Static Websites</h3>
+                    <p>Fast, SEO-optimized static websites perfect for portfolios, landing pages, and marketing sites.</p>
+                    <ul class="service-features">
+                        <li>Modern Frameworks</li>
+                        <li>SEO Optimization</li>
+                        <li>Performance Tuning</li>
+                        <li>Content Management</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Remote IT Services</h3>
+                    <p>Comprehensive remote IT support, system administration, and infrastructure management for businesses of all sizes.</p>
+                    <ul class="service-features">
+                        <li>Remote System Administration</li>
+                        <li>24/7 Technical Support</li>
+                        <li>Help Desk Services</li>
+                        <li>IT Consulting & Strategy</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Network Infrastructure</h3>
+                    <p>Complete network design, implementation, and management solutions for secure and efficient connectivity.</p>
+                    <ul class="service-features">
+                        <li>Network Design & Planning</li>
+                        <li>Router & Switch Configuration</li>
+                        <li>Wireless Network Setup</li>
+                        <li>Network Monitoring & Maintenance</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Infrastructure Management</h3>
+                    <p>End-to-end infrastructure solutions including cloud migration, server management, and data center operations.</p>
+                    <ul class="service-features">
+                        <li>Cloud Migration & Management</li>
+                        <li>Server Administration</li>
+                        <li>Data Center Operations</li>
+                        <li>Backup & Disaster Recovery</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity Solutions</h3>
+                    <p>Advanced security measures to protect your business from cyber threats and ensure compliance.</p>
+                    <ul class="service-features">
+                        <li>Security Assessment & Auditing</li>
+                        <li>Firewall Configuration</li>
+                        <li>Endpoint Protection</li>
+                        <li>Security Training & Awareness</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Work</h2>
+                <p class="section-subtitle">Showcasing innovative solutions and successful projects</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="odoo">Odoo</button>
+                <button class="filter-btn" data-filter="desktop">Desktop</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+                <button class="filter-btn" data-filter="network">Network</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="odoo">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cogs"></i>
+                            <h4>ERP System Integration</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Custom Odoo ERP</h3>
+                        <p>Complete ERP system implementation with custom modules for inventory management and financial reporting.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Odoo</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="desktop">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-desktop"></i>
+                            <h4>Business Management Tool</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Desktop CRM Application</h3>
+                        <p>Feature-rich customer relationship management application with advanced reporting and analytics.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">WPF</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                            <h4>E-commerce Platform</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Dynamic E-commerce Site</h3>
+                        <p>Full-featured online store with payment integration, inventory management, and admin dashboard.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="python">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fab fa-python"></i>
+                            <h4>Data Analytics Platform</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Business Intelligence Tool</h3>
+                        <p>Advanced data visualization and analytics platform for business insights and reporting.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>Corporate Website</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Modern Corporate Site</h3>
+                        <p>Responsive corporate website with CMS integration and SEO optimization.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="odoo">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Custom Reporting Module</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Advanced Reporting System</h3>
+                        <p>Custom Odoo module for advanced financial reporting and business analytics.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Odoo</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">XML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="infrastructure">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-server"></i>
+                            <h4>Cloud Migration Project</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Enterprise Cloud Migration</h3>
+                        <p>Complete migration of on-premises infrastructure to AWS with zero downtime and enhanced security.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="network">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-network-wired"></i>
+                            <h4>Network Infrastructure</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Multi-Site Network Design</h3>
+                        <p>Comprehensive network infrastructure for 5 office locations with VPN connectivity and failover systems.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Cisco</span>
+                            <span class="tech-tag">VPN</span>
+                            <span class="tech-tag">SD-WAN</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="infrastructure">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Security Implementation</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Cybersecurity Framework</h3>
+                        <p>Complete security implementation including firewall configuration, endpoint protection, and security monitoring.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Firewall</span>
+                            <span class="tech-tag">SIEM</span>
+                            <span class="tech-tag">EDR</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="infrastructure">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-database"></i>
+                            <h4>Backup & Recovery</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Disaster Recovery Solution</h3>
+                        <p>Comprehensive backup and disaster recovery system with 99.9% uptime guarantee and automated failover.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Veeam</span>
+                            <span class="tech-tag">Azure</span>
+                            <span class="tech-tag">PowerShell</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="network">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-wifi"></i>
+                            <h4>Wireless Network</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Enterprise WiFi Solution</h3>
+                        <p>High-performance wireless network with centralized management, guest access, and advanced security features.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Ubiquiti</span>
+                            <span class="tech-tag">802.11ax</span>
+                            <span class="tech-tag">RADIUS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Wehiby</h2>
+                    <p class="about-description">
+                        We are a forward-thinking IT services company specializing in cutting-edge technology solutions, 
+                        infrastructure management, and comprehensive remote IT services. Our team combines years of experience 
+                        with innovative approaches to deliver exceptional results for businesses of all sizes, from startups 
+                        to enterprise-level organizations.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Innovation First</h4>
+                                <p>We stay ahead of technology trends to deliver cutting-edge solutions.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Expert Team</h4>
+                                <p>Our skilled professionals bring diverse expertise to every project.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Reliable Support</h4>
+                                <p>We provide ongoing support and maintenance for all our solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-showcase">
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>Odoo</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WEHIBY</h3>
+                    <p>Building the future of technology with innovative IT solutions and exceptional service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Odoo ERP Solutions</a></li>
+                        <li><a href="#services">Desktop Applications</a></li>
+                        <li><a href="#services">Python Development</a></li>
+                        <li><a href="#services">Web Applications</a></li>
+                        <li><a href="#services">Infrastructure Management</a></li>
+                        <li><a href="#services">Network Solutions</a></li>
+                        <li><a href="#services">Cybersecurity</a></li>
+                        <li><a href="#services">Remote IT Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@wehiby.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Remote Services Worldwide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wehiby. All rights reserved. | Future Technology Solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
